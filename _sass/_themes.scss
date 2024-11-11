@@ -89,6 +89,7 @@
   height: 20em;
   margin-bottom: 2em;
   margin-top: -3em; /* Adjust vertical spacing */
+  width: 100%; /* Ensure the width spans the container */
 }
 
 .header-background .img {
@@ -98,10 +99,9 @@
   background-position: center center;
   width: 100%;
   height: 100%;
-  position: relative; /* For proper layering */
 }
 
-.header-background .img::before {
+.header-background::before {
   content: "";
   position: absolute;
   top: 0;
@@ -109,7 +109,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5); /* White overlay, 50% transparent */
-  z-index: 1; /* Place it above the background image */
+  z-index: 1; /* Ensure it layers above the image */
 }
 
 .header-background .overlay-text {
@@ -118,12 +118,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 4rem;
+  font-size: 4rem; /* Adjust font size */
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   z-index: 2; /* Ensure text appears above the semi-transparent layer */
 }
-
 
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
