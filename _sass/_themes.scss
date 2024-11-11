@@ -74,6 +74,17 @@
   }
 }
 
+.header-background .img {
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 15em;
+  margin-bottom: 2em;
+  margin-top: -2.7em;  
+}
+
+
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
