@@ -1,9 +1,9 @@
 ---
 layout: profiles
-permalink: /team/
-title: team
+permalink: /people/
+title: people
 description: 
-nav: true
+nav: false
 nav_order: 2
 
 profiles:
