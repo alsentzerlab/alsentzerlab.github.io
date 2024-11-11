@@ -17,8 +17,10 @@ Our research focuses on addressing the challenges of translating machine learnin
 
 <!-- # Research Areas
 
-## Clinical Foundation Models
+## Knowledge-Enhanced Machine Learning
 
-## Rare Disease Diagnosis
+## Clinical Foundation Models for Label Efficient Learning
+
+## Few-Shot Learning for Rare Disease Diagnosis
 
 ##  -->
