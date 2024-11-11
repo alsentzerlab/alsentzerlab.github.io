@@ -83,7 +83,8 @@ jobs:
           commitChange: false
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
+          value: "${{ github.repository }}"
+          branch: main
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade nbconvert
