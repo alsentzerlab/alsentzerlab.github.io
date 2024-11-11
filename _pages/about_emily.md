@@ -1,4 +1,5 @@
 Dr. Emily Alsentzer is an Assistant Professor in Biomedical Data Science and, by courtesy, Computer Science at Stanford University.
+[bio](https://alsentzerlab.github.io/bio/)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
