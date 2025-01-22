@@ -9,9 +9,10 @@ nav_order: 7
 
 **Emily Alsentzer**  \
 Assistant Professor of Biomedical Data Science and, by courtesy, Computer Science  \
-[Email](mailto:ealsentzer@stanford.edu)  \
-[Twitter](https://x.com/Emily_Alsentzer)  \
-MSOB x333  \
-1265 Welch Rd, Palo Alto, CA 94305
+Email: ealsentzer at stanford.edu \
+Bluesky: [@emilyalsentzer.bsky.social](https://bsky.app/profile/emilyalsentzer.bsky.social) \
+X: [@Emily_Alsentzer](https://x.com/Emily_Alsentzer)  \
+Edwards Building R322  \
+300 Pasteur Drive, Palo Alto, CA 94304
 
 
