@@ -26,7 +26,7 @@ Note: Due to the high volume of inquiries, I may not be able to respond to all e
 - A PhD (or be nearing completion of one) in computer science, biomedical informatics, data science, or a related field
 - Research experience in machine learning and/or natural language processing (NLP), especially in clinical applications
 
-If this sounds like you, please send me your CV, a summary of your research experience, and your future research goals. Make sure to explain why you are interested in joining the lab.
+If this sounds like you, please apply by filling out [this form](bit.ly/alsentzerlab-app). The start date is flexible, and we will be reviewing applications on a rolling basis.
 
 **Clinicians:** Collaborations with clinicians and clinical informatics fellows are central to our research. We’re always eager to translate ML and NLP methods into clinical practice. If you’re interested in collaborating, I’d love to hear from you.
 
