@@ -12,7 +12,7 @@ Assistant Professor of Biomedical Data Science and, by courtesy, Computer Scienc
 Email: ealsentzer at stanford.edu \
 Bluesky: [@emilyalsentzer.bsky.social](https://bsky.app/profile/emilyalsentzer.bsky.social) \
 X: [@Emily_Alsentzer](https://x.com/Emily_Alsentzer)  \
-Edwards Building R322  \
+Edwards Building R328  \
 300 Pasteur Drive, Palo Alto, CA 94304
 
 
