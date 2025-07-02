@@ -1,10 +1,15 @@
-# al-folio
+# Alsentzer Lab Website
 
-<div align="center">
+Looking to edit the lab website? Below are some common tasks:
 
-[![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+- *Add lab member*: TODO
+- *Add paper*: TODO
+- *Add lab photo*: TODO
+- *Add FAQ*: TODO
 
-**A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
+
+
+**al-folio Template: A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 
 ---
 
