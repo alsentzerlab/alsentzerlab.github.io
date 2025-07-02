@@ -1,12 +1,6 @@
 # Alsentzer Lab Website
 
-Looking to edit the lab website? Below are some common tasks:
-
-- **Add lab member**: TODO
-- **Add paper**: TODO
-- **Add lab photo**: TODO
-- **Add FAQ**: TODO
-
+Looking to edit the lab website? Find instructions [here](https://github.com/alsentzerlab/wiki/blob/main/lab-policies/update_lab_website.md).
 
 
 **al-folio Template: A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
