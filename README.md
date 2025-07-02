@@ -2,10 +2,10 @@
 
 Looking to edit the lab website? Below are some common tasks:
 
-- *Add lab member*: TODO
-- *Add paper*: TODO
-- *Add lab photo*: TODO
-- *Add FAQ*: TODO
+- **Add lab member**: TODO
+- **Add paper**: TODO
+- **Add lab photo**: TODO
+- **Add FAQ**: TODO
 
 
 
