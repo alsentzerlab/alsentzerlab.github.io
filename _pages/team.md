@@ -3,7 +3,7 @@ layout: profiles
 permalink: /team/
 title: team
 description: 
-nav: true
+nav: false
 nav_order: 5
 
 profiles:
