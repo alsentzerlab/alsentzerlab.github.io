@@ -21,7 +21,7 @@ Note: Due to the high volume of inquiries, I may not be able to respond to all e
 - Your resume
 - A copy of your transcript
 
-**Postdoctoral Fellows:** We are currently seeking 1-2 postdoctoral fellows to join the lab. Ideal candidates will have:
+**Postdoctoral Fellows:** We are currently seeking 1-2 postdoc fellows to join the lab. Ideal candidates will have:
 
 - A PhD (or be nearing completion of one) in computer science, biomedical informatics, data science, or a related field
 - Research experience in machine learning and/or natural language processing (NLP), especially in clinical applications
