@@ -20,14 +20,13 @@
     <!-- Header -->
     {% include header.liquid %}
 
-    <div class="header-background">
-      <div class="img"></div>
-      <div class="overlay-text">Alsentzer Lab</div>
+    <!-- Decorative banner -->
+    <div class="site-banner" aria-hidden="true">
+      <div class="site-banner-overlay"></div>
     </div>
 
-
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="container mt-2" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
@@ -53,8 +52,12 @@
       {% endif %}
     </div>
 
-    <!-- Footer -->
-    {% include footer.liquid %}
+    <!-- Simple Footer -->
+    <footer class="simple-footer">
+      <div class="container">
+        <p>© {{ site.time | date: '%Y' }} Alsentzer Lab, Stanford University</p>
+      </div>
+    </footer>
 
     <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}

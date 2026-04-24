@@ -43,7 +43,13 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %}
+              {% if page.nav_title %}
+                {% assign about_title = page.nav_title %}
+              {% else %}
+                {% assign about_title = page.title %}
+              {% endif %}
+            {% endif %}
           {% endfor %}
 
           <!-- About -->
