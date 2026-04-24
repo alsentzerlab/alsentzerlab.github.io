@@ -242,9 +242,13 @@ details.team-row > summary:hover {
   border-radius: 6px;
 }
 
+.team-row-chevron {
+  display: none;
+}
+
 .team-row-photo {
-  width: 110px;
-  height: 110px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -292,7 +296,7 @@ details[open] > summary .team-row-chevron {
 }
 
 .team-row-bio {
-  padding: 0 0 1rem calc(110px + 1.25rem);
+  padding: 0 0 1rem calc(160px + 1.25rem);
   font-size: 0.88rem;
   color: var(--secondary-color);
   line-height: 1.65;
