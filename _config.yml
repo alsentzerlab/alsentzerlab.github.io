@@ -2,8 +2,6 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-destination: /tmp/jekyll_site  # write outside Box volume to avoid file locking issues (local dev only)
-
 title:  # the website title (if blank, full name will be used instead)
 first_name: Alsentzer
 middle_name: 
