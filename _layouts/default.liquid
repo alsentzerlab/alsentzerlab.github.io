@@ -20,10 +20,12 @@
     <!-- Header -->
     {% include header.liquid %}
 
-    <!-- Decorative banner -->
-    <div class="site-banner" aria-hidden="true">
-      <div class="site-banner-overlay"></div>
-    </div>
+    <!-- Decorative banner (home page only) -->
+    {% if page.permalink == '/' %}
+      <div class="site-banner" aria-hidden="true">
+        <div class="site-banner-overlay"></div>
+      </div>
+    {% endif %}
 
     <!-- Content -->
     <div class="container mt-2" role="main">

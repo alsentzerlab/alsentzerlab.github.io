@@ -178,14 +178,14 @@ a:hover {
   text-decoration: none;
 }
 
-/* Override sticky footer behavior */
-body.sticky-bottom-footer {
+/* Push footer to bottom of viewport */
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-body.sticky-bottom-footer .container[role="main"] {
+body .container[role="main"] {
   flex: 1;
 }
 
@@ -337,7 +337,7 @@ h2 {
 .site-banner {
   position: relative;
   width: 100%;
-  height: 150px;
+  height: 220px;
   background-image: url('/assets/img/banner2.jpg');
   background-size: cover;
   background-position: center 22%;
