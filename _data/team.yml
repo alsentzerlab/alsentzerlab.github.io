@@ -9,13 +9,14 @@ pi:
       Brigham and Women's Hospital and Harvard Medical School (HMS) where she worked to deploy ML
       models within the Mass General Brigham healthcare system. She received her PhD from the
       Health Science & Technology (HST) program at MIT & HMS, co-advised by Zak Kohane and Pete Szolovits.
-    cheese: "🧀 aged gouda"
+    cheese: "sherry gray"
+    cheese_url: "https://www.jasperhillfarm.com/sherry"
 
 postdocs:
   - name: Chloe Stanwyck
     photo: Headshot_Chloe.jpg
     role: Postdoctoral Researcher
-    cheese: "🧀 Aged gouda"
+    cheese: "aged gouda"
     bio: >
       Chloe is a postdoc in the Departments of Biomedical Data Science and Obstetric Anesthesiology. She received her MD and MS in Biomedical Informatics from Stanford University and completed her anesthesiology residency at Massachusetts General Hospital, after which she practiced as an attending in the Bay Area at Kaiser Permanente and Highland Hospital. She subsequently returned to Stanford for subspecialty training in obstetric anesthesiology before starting her research postdoc.
 
@@ -24,7 +25,7 @@ phd:
     photo: jordancahoon.jpg
     url: https://www.jordancahoon.com/
     role: PhD Student, Biomedical Data Science
-    cheese: "🧀 goat"
+    cheese: "goat"
     bio: >
       Jordan is a second-year PhD student in the Department of Biomedical Data Science. She is broadly interested in developing methods to reason over longitudinal clinical records and integrate these insights with patient molecular data. She earned a B.S. in Computer Science with a minor in Computational Biology from the University of Southern California.
 
@@ -32,7 +33,7 @@ phd:
     photo: FionaCai.jpg
     url: https://fionacai.com/
     role: PhD Student, Biomedical Data Science
-    cheese: "🧀 halloumi"
+    cheese: "halloumi"
     bio: >
       Fiona is a second-year PhD student in the Department of Biomedical Data Science. Her research focuses on knowledge-grounded language model systems for biomedical reasoning, with a focus on rare disease diagnosis. She is also interested in multimodal retrieval and reasoning, particularly for biomedical visual question answering. She previously received her B.S. and M.Eng. in Computer Science from MIT.
 
@@ -40,12 +41,12 @@ masters:
   - name: Yihan Zhao
     photo: Headshot_Yihan.jpg
     role: DBDS Masters Student
-    cheese: "🧀 cheddar"
+    cheese: "cheddar"
 
   - name: Lucy Yin
     photo: Headshot_Lucy.jpg
     role: DBDS Masters Student
-    cheese: "🧀 brie"
+    cheese: "brie"
     bio: >
       Lucy is a first year Master’s student in the Department of Biomedical Data Science. Her current research interests include classifying query ambiguity in LLMs and evaluating how underspecification affects downstream information retrieval in clinical settings. She is passionate about safe and equitable AI deployment in healthcare. She previously received her B.S. in Computational and Systems Biology at the University of California, Los Angeles (UCLA). 
 
@@ -53,18 +54,18 @@ masters:
   - name: Emma Grace Sun
     photo: placeholder-person.svg
     role: CS Masters Student
-    cheese: "🧀 cheddar"
+    cheese: "cheddar"
 
   - name: Sahithi Ankireddy
     photo: placeholder-person.svg
     role: CS Masters Student
-    cheese: "🧀 cheddar"
+    cheese: "cheddar"
 
 ra:
   - name: Sasha Ronaghi
     photo: Headshot_Sasha.jpg
     role: Research Assistant
-    cheese: "🧀 cheddar"
+    cheese: "cheddar"
 
 alumni:
   - name: Bridget Lin

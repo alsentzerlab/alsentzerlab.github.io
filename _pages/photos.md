@@ -91,6 +91,58 @@ nav: false
   </div>
 </div>
 
+---
+
+## Favorite Cheeses
+
+<div class="cheese-list">
+{% assign all_members = site.data.team.pi | concat: site.data.team.postdocs | concat: site.data.team.phd | concat: site.data.team.masters | concat: site.data.team.ra %}
+{% for person in all_members %}
+{% if person.cheese %}
+<div class="cheese-item">
+  <span class="cheese-name">{{ person.name }}</span>
+  <span class="cheese-sep">—</span>
+  <span class="cheese-value">🧀 {% if person.cheese_url %}<a href="{{ person.cheese_url }}" target="_blank">{{ person.cheese }}</a>{% else %}{{ person.cheese }}{% endif %}</span>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
+<style>
+.cheese-list {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.cheese-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+.cheese-name {
+  font-weight: 500;
+  color: var(--primary-color);
+  min-width: 160px;
+}
+.cheese-sep {
+  color: var(--secondary-color);
+}
+.cheese-value {
+  color: var(--secondary-color);
+}
+.cheese-value a {
+  color: var(--accent-blue);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.cheese-value a:hover {
+  border-bottom-color: var(--accent-blue);
+}
+</style>
+
 <div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
   <img id="lightbox-img" src="" alt="">
 </div>
