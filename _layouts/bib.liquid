@@ -60,6 +60,8 @@
           {% assign title_url = entry.doi | prepend: 'https://doi.org/' %}
         {% elsif entry.arxiv %}
           {% assign title_url = entry.arxiv | prepend: 'https://arxiv.org/abs/' %}
+        {% elsif entry.scholar %}
+          {% assign title_url = entry.scholar %}
         {% endif %}
         {% if title_url %}
           <a href="{{ title_url }}">{{ entry.title }}</a>
