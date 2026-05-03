@@ -1,0 +1,125 @@
+# Optional metadata preserved by scripts/update_papers_from_scholar.py.
+#
+# Keys are generated from first author, year, and title slug, for example:
+#
+# alsentzer2019publicly:
+#   abbr: ClinicalNLP
+#   pdf: https://aclanthology.org/W19-1909.pdf
+#   code: https://github.com/emilyalsentzer/clinicalBERT
+#   website: https://emilyalsentzer.github.io/clinicalBERT/
+#   arxiv: "2302.08091"
+#   preview: clinicalbert.png
+#   selected: true
+#   bibtex_show: true
+#   author: Emily Alsentzer and Coauthor Name
+#   exclude: true
+#
+# Use exclude: true for papers you do not want shown on the Papers page.
+# The refresh script skips excluded entries when regenerating _bibliography/papers.bib.
+
+alsentzer2020ml4habstracttrack:
+  exclude: true
+
+alsentzer2019proceedings2ndclinical:
+  exclude: true
+
+alsentzer2020subgraphneuralnetworks:
+  html: https://proceedings.neurips.cc/paper/2020/hash/5bca8566db79f3788be9efd96c9ed70d-Abstract.html
+  pdf: https://proceedings.neurips.cc/paper_files/paper/2020/file/5bca8566db79f3788be9efd96c9ed70d-Paper.pdf
+
+alsentzer2019publiclyavailableclinical:
+  html: https://aclanthology.org/W19-1909/
+  pdf: https://aclanthology.org/W19-1909.pdf
+
+ling2018scalableelectronicphenotyping:
+  html: https://pmc.ncbi.nlm.nih.gov/articles/PMC6371288/
+  website: https://pubmed.ncbi.nlm.nih.gov/30815116/
+
+boag2020baselineschestx:
+  author: W Boag and TMH Hsu and M McDermott and G Berner and E Alsentzer and P Szolovits
+  html: https://proceedings.mlr.press/v116/boag20a.html
+  pdf: https://proceedings.mlr.press/v116/boag20a/boag20a.pdf
+
+lehman2023dowestill:
+  html: https://proceedings.mlr.press/v209/eric23a.html
+  pdf: https://proceedings.mlr.press/v209/eric23a/eric23a.pdf
+  arxiv: "2302.08091"
+  code: https://github.com/elehman16/clinical_llm
+
+alsentzer2022deeplearningdiagnosing:
+  exclude: true
+
+rotenstein2024patternspatientcare:
+  exclude: true
+
+rotenstein2024patternspatientcare2:
+  exclude: true
+
+zack2023codinginequityassessing:
+  exclude: true
+
+alsentzer2022fewshotlearning:
+  exclude: true
+
+adam2022justfollowingai:
+  html: https://openreview.net/forum?id=ISzWXSWiL8
+  pdf: https://openreview.net/pdf?id=ISzWXSWiL8
+
+falck2021collectionacceptedabstracts:
+  exclude: true
+
+roy2021machinelearninghealth:
+  exclude: true
+
+steitz2021applyingstateart:
+  exclude: true
+
+sarkar2020machinelearninghealth:
+  exclude: true
+
+dalca2020machinelearninghealth:
+  exclude: true
+
+mcdermott2020ml4habstracttrack:
+  exclude: true
+
+alsentzer2025reflectionsresearchroundtables:
+  exclude: true
+
+aali2025expertlevelvalidation:
+  exclude: true
+
+bedi2025medhelmholisticevaluation:
+  exclude: true
+
+woo2025leveraginglargelanguage:
+  exclude: true
+
+miao2024identifyingreasonscontraceptive:
+  exclude: true
+
+alsentzer2025fewshotlearning:
+  html: https://www.nature.com/articles/s41746-025-01749-1
+  pdf: https://www.nature.com/articles/s41746-025-01749-1.pdf
+  doi: 10.1038/s41746-025-01749-1
+
+somani2025performancebenchmarkingsmaller:
+  html: https://doi.org/10.1161/circ.152.suppl_3.4366575
+  doi: 10.1161/circ.152.suppl_3.4366575
+
+ronaghi2025bestbothworlds:
+  html: https://openreview.net/forum?id=tSaUssLzzI
+  pdf: https://openreview.net/pdf?id=tSaUssLzzI
+
+cahoon2025scalablequestiongeneration:
+  html: https://openreview.net/forum?id=hQDn96O8rP
+  pdf: https://openreview.net/pdf?id=hQDn96O8rP
+
+aali2025promptoptimizationimproves:
+  html: https://openreview.net/forum?id=PfjLpuLJi0
+  pdf: https://openreview.net/pdf?id=PfjLpuLJi0
+
+mandyam2025aprilannotationspolicy:
+  booktitle: Proceedings of Machine Learning Research 297, Machine Learning for Health 2025
+  html: https://openreview.net/forum?id=GfKZEe42wS
+  pdf: https://openreview.net/pdf?id=GfKZEe42wS

@@ -736,6 +736,11 @@ footer.sticky-bottom {
           font-style: normal;
         }
 
+        .lab-author {
+          border-bottom: 1px solid var(--global-text-color);
+          font-style: normal;
+        }
+
         > span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
@@ -888,6 +893,83 @@ html.transition *:after {
 
       &:hover {
         color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+.papers-intro {
+  margin-bottom: 1.5rem;
+
+  p {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
+}
+
+.publications.papers-page {
+  margin-top: 1.25rem;
+
+  h2.bibliography {
+    color: var(--global-theme-color);
+    border-top: 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin: 2.25rem 0 1rem;
+    padding: 0 0 0.35rem;
+    text-align: left;
+  }
+
+  ol.bibliography {
+    li {
+      border-bottom: 1px solid var(--global-divider-color);
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      .row {
+        align-items: flex-start;
+      }
+
+      .abbr {
+        abbr {
+          border-radius: 4px !important;
+          font-size: 0.72rem;
+          line-height: 1.25;
+          padding: 0.25rem 0.35rem;
+        }
+      }
+
+      .title {
+        font-size: 1.05rem;
+        font-weight: 600;
+        line-height: 1.35;
+        margin-bottom: 0.2rem;
+      }
+
+      .author,
+      .periodical {
+        color: var(--global-text-color-light);
+        font-size: 0.9rem;
+        line-height: 1.45;
+      }
+
+      .links {
+        margin-top: 0.45rem;
+
+        a.btn {
+          border-radius: 4px;
+          font-size: 0.72rem;
+          line-height: 1.2;
+          margin: 0.15rem 0.25rem 0.15rem 0;
+          padding: 0.2rem 0.55rem;
+          text-transform: none;
+        }
       }
     }
   }
