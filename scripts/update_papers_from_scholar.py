@@ -407,6 +407,10 @@ def render_bibtex(papers: list[Paper], overrides: dict[str, dict[str, str]]) -> 
             "arxiv",
         ):
             if name in override and override[name] != "":
+                if override[name].lower() in {"false", "none", "null", "remove"}:
+                    fields = [(field, value) for field, value in fields if field != name]
+                    used_field_names.discard(name)
+                    continue
                 if name in used_field_names:
                     fields = [(field, override[name] if field == name else value) for field, value in fields]
                     continue

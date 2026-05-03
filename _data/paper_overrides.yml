@@ -95,8 +95,15 @@ bedi2025medhelmholisticevaluation:
 woo2025leveraginglargelanguage:
   exclude: true
 
+aali2025structuredpromptingenables:
+  exclude: true
+
 miao2024identifyingreasonscontraceptive:
   exclude: true
+
+you2024generativeaiprimary:
+  html: remove
+  website: remove
 
 alsentzer2025fewshotlearning:
   html: https://www.nature.com/articles/s41746-025-01749-1
