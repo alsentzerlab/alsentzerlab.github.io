@@ -1,3 +1,6 @@
+# times out in CI but is a valid URL
+https://dbds\.stanford\.edu/
+
 # bit.ly shortlinks return 401 to bots
 https://bit\.ly/
 
