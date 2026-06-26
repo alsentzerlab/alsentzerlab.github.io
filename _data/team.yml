@@ -37,6 +37,15 @@ phd:
     bio: >
       Fiona is a second-year PhD student in the Department of Biomedical Data Science. Her research focuses on knowledge-grounded language model systems for biomedical reasoning, with a focus on rare disease diagnosis. She is also interested in multimodal retrieval and reasoning, particularly for biomedical visual question answering. She previously received her B.S. and M.Eng. in Computer Science from MIT.
 
+  - name: Bridget Lin
+    photo: Headshot_Bridget.jpg
+    url: 
+    role: PhD Student, Biomedical Data Science
+    cheese: "cheddar"
+    bio: >
+      Bridget is a first-year PhD student in the Department of Biomedical Data Science. 
+
+
 masters:
   - name: Yihan Zhao
     photo: Headshot_Yihan.jpg
@@ -50,7 +59,6 @@ masters:
     bio: >
       Lucy is a first year Master’s student in the Department of Biomedical Data Science. Her current research interests include classifying query ambiguity in LLMs and evaluating how underspecification affects downstream information retrieval in clinical settings. She is passionate about safe and equitable AI deployment in healthcare. She previously received her B.S. in Computational and Systems Biology at the University of California, Los Angeles (UCLA). 
 
-
   - name: Emma Grace Sun
     photo: placeholder-person.svg
     role: CS Masters Student
@@ -61,15 +69,9 @@ masters:
     role: CS Masters Student
     cheese: "cheddar"
 
-ra:
-  - name: Sasha Ronaghi
-    photo: Headshot_Sasha.jpg
-    role: Research Assistant
-    cheese: "cheddar"
-
 alumni:
-  - name: Bridget Lin
-    role: DBDS PhD Student
+  - name: Sasha Ronaghi
+    role: (Now PhD Student, MIT EECS)
 
   - name: Andrew Shen
     role: DBDS PhD Student
