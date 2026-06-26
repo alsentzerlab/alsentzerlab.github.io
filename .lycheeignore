@@ -1,0 +1,10 @@
+# bit.ly shortlinks return 401 to bots
+https://bit\.ly/
+
+# unsplash returns 401 to bots
+https://unsplash\.com
+
+# upstream al-folio template anchors that no longer exist
+https://github\.com/alshedivat/al-folio/blob/main/FAQ\.md#
+https://github\.com/alshedivat/al-folio/blob/main/INSTALL\.md#local-setup-with-development-containers
+https://github\.com/alshedivat/al-folio/blob/main/_sass/_base\.scss
