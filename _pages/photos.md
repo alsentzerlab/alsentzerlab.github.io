@@ -96,7 +96,7 @@ nav: false
 ## Favorite Cheeses
 
 <div class="cheese-list">
-{% assign all_members = site.data.team.pi | concat: site.data.team.postdocs | concat: site.data.team.phd | concat: site.data.team.masters | concat: site.data.team.ra %}
+{% assign all_members = site.data.team.pi | concat: site.data.team.postdocs | concat: site.data.team.phd | concat: site.data.team.masters %}
 {% for person in all_members %}
 {% if person.cheese %}
 <div class="cheese-item">
