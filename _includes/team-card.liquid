@@ -1,0 +1,44 @@
+<div class="team-card-cell">
+{% if include.person.bio %}
+<details class="team-card">
+  <summary>
+    <div class="team-card-photo-wrap">
+      <img src="/assets/img/{{ include.person.photo }}" class="team-card-photo" alt="{{ include.person.name }}">
+    </div>
+    <div class="team-card-info">
+      <h3>{% if include.person.url %}<a href="{{ include.person.url }}" target="_blank" onclick="event.stopPropagation()">{{ include.person.name }}</a>{% else %}{{ include.person.name }}{% endif %}</h3>
+      <p class="role">{{ include.person.role }}</p>
+      {% if include.person.email or include.person.twitter or include.person.github %}
+      <div class="team-social-links">
+        {% if include.person.email %}<a href="mailto:{{ include.person.email }}" aria-label="Email {{ include.person.name }}" onclick="event.stopPropagation()"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+        {% if include.person.twitter %}<a href="{{ include.person.twitter }}" target="_blank" aria-label="{{ include.person.name }} on Twitter/X" onclick="event.stopPropagation()"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
+        {% if include.person.github %}<a href="{{ include.person.github }}" target="_blank" aria-label="{{ include.person.name }} on GitHub" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i></a>{% endif %}
+      </div>
+      {% endif %}
+      {% if include.person.cheese %}<span class="cheese-tag">{{ include.person.cheese }}</span>{% endif %}
+    </div>
+  </summary>
+</details>
+<div class="team-card-bio"><p>{{ include.person.bio }}</p></div>
+{% else %}
+<div class="team-card">
+  <div class="team-card-photo-wrap">
+    {% if include.person.url %}<a href="{{ include.person.url }}" target="_blank">{% endif %}
+    <img src="/assets/img/{{ include.person.photo }}" class="team-card-photo" alt="{{ include.person.name }}">
+    {% if include.person.url %}</a>{% endif %}
+  </div>
+  <div class="team-card-info">
+    <h3>{% if include.person.url %}<a href="{{ include.person.url }}" target="_blank">{{ include.person.name }}</a>{% else %}{{ include.person.name }}{% endif %}</h3>
+    <p class="role">{{ include.person.role }}</p>
+    {% if include.person.email or include.person.twitter or include.person.github %}
+    <div class="team-social-links">
+      {% if include.person.email %}<a href="mailto:{{ include.person.email }}" aria-label="Email {{ include.person.name }}"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+      {% if include.person.twitter %}<a href="{{ include.person.twitter }}" target="_blank" aria-label="{{ include.person.name }} on Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
+      {% if include.person.github %}<a href="{{ include.person.github }}" target="_blank" aria-label="{{ include.person.name }} on GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
+    </div>
+    {% endif %}
+    {% if include.person.cheese %}<span class="cheese-tag">{{ include.person.cheese }}</span>{% endif %}
+  </div>
+</div>
+{% endif %}
+</div>

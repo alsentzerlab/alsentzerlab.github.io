@@ -2,7 +2,9 @@ pi:
   - name: Dr. Emily Alsentzer
     photo: emilyalsentzer.jpg
     url: https://emilyalsentzer.com/
-    role: Assistant Professor, Biomedical Data Science & Computer Science, Stanford
+    role: Assistant Professor of Biomedical Data Science and, by courtesy, of Computer Science
+    email: ealsentzer@stanford.edu
+    twitter: https://x.com/Emily_Alsentzer
     bio: >
       Emily Alsentzer, PhD is an Assistant Professor of Biomedical Data Science and, by courtesy,
       of Computer Science at Stanford University. Previously, she was a postdoctoral fellow at
@@ -13,10 +15,11 @@ pi:
     cheese_url: "https://www.jasperhillfarm.com/sherry"
 
 postdocs:
-  - name: Chloe Stanwyck
+  - name: Dr. Chloe Stanwyck
     photo: Headshot_Chloe.jpg
     role: Postdoctoral Researcher
     cheese: "aged gouda"
+    email: chloeo@stanford.edu
     bio: >
       Chloe is a postdoc in the Departments of Biomedical Data Science and Obstetric Anesthesiology. She received her MD and MS in Biomedical Informatics from Stanford University and completed her anesthesiology residency at Massachusetts General Hospital, after which she practiced as an attending in the Bay Area at Kaiser Permanente and Highland Hospital. She subsequently returned to Stanford for subspecialty training in obstetric anesthesiology before starting her research postdoc.
 
@@ -24,6 +27,8 @@ phd:
   - name: Jordan Cahoon
     photo: jordancahoon.jpg
     url: https://www.jordancahoon.com/
+    email: cahoon@stanford.edu
+    twitter: https://x.com/itscahoon
     role: PhD Student, Biomedical Data Science
     cheese: "goat"
     bio: >
@@ -32,6 +37,8 @@ phd:
   - name: Fiona X. Cai
     photo: FionaCai.jpg
     url: https://fionacai.com/
+    email: fionacai@stanford.edu
+    twitter: https://x.com/fionaxcai
     role: PhD Student, Biomedical Data Science
     cheese: "halloumi"
     bio: >
@@ -40,6 +47,7 @@ phd:
   - name: Bridget Lin
     photo: Headshot_Bridget.jpg
     url: 
+    email: bridget7@stanford.edu
     role: PhD Student, Biomedical Data Science
     cheese: "cheddar"
     bio: >

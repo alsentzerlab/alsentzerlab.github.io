@@ -11,25 +11,7 @@ nav_order: 3
 
 <div class="team-rows-group">
 {% for person in site.data.team.pi %}
-{% if person.bio %}
-<details class="team-row">
-  <summary>
-    <div class="team-row-photo-wrap">
-      {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-      <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-      {% if person.url %}</a>{% endif %}
-    </div>
-    <div class="team-row-info">
-      <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-      <p class="role">{{ person.role }}</p>
-      {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-    </div>
-    <span class="team-row-chevron">▶</span>
-  </summary>
-  <div class="team-row-bio"><p>{{ person.bio }}</p></div>
-</details>
-{% else %}
-<div class="team-row">
+<div class="team-row team-row-pi">
   <div class="team-row-photo-wrap">
     {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
     <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
@@ -38,162 +20,49 @@ nav_order: 3
   <div class="team-row-info">
     <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
     <p class="role">{{ person.role }}</p>
+    {% if person.email or person.twitter or person.github %}
+    <div class="team-social-links">
+      {% if person.email %}<a href="mailto:{{ person.email }}" aria-label="Email {{ person.name }}"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+      {% if person.twitter %}<a href="{{ person.twitter }}" target="_blank" aria-label="{{ person.name }} on Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
+      {% if person.github %}<a href="{{ person.github }}" target="_blank" aria-label="{{ person.name }} on GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
+    </div>
+    {% endif %}
+    {% if person.bio %}<div class="team-row-bio"><p>{{ person.bio }}</p></div>{% endif %}
     {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
   </div>
 </div>
-{% endif %}
 {% endfor %}
 </div>
 
 ## Postdoctoral Researchers
 
-<div class="team-rows-group">
+<div class="team-grid">
 {% for person in site.data.team.postdocs %}
-{% if person.bio %}
-<details class="team-row">
-  <summary>
-    <div class="team-row-photo-wrap">
-      {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-      <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-      {% if person.url %}</a>{% endif %}
-    </div>
-    <div class="team-row-info">
-      <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-      <p class="role">{{ person.role }}</p>
-      {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-    </div>
-    <span class="team-row-chevron">▶</span>
-  </summary>
-  <div class="team-row-bio"><p>{{ person.bio }}</p></div>
-</details>
-{% else %}
-<div class="team-row">
-  <div class="team-row-photo-wrap">
-    {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-    <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-    {% if person.url %}</a>{% endif %}
-  </div>
-  <div class="team-row-info">
-    <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-    <p class="role">{{ person.role }}</p>
-    {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-  </div>
-</div>
-{% endif %}
+{% include team-card.liquid person=person %}
 {% endfor %}
 </div>
 
 ## PhD Students
 
-<div class="team-rows-group">
+<div class="team-grid">
 {% for person in site.data.team.phd %}
-{% if person.bio %}
-<details class="team-row">
-  <summary>
-    <div class="team-row-photo-wrap">
-      {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-      <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-      {% if person.url %}</a>{% endif %}
-    </div>
-    <div class="team-row-info">
-      <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-      <p class="role">{{ person.role }}</p>
-      {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-    </div>
-    <span class="team-row-chevron">▶</span>
-  </summary>
-  <div class="team-row-bio"><p>{{ person.bio }}</p></div>
-</details>
-{% else %}
-<div class="team-row">
-  <div class="team-row-photo-wrap">
-    {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-    <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-    {% if person.url %}</a>{% endif %}
-  </div>
-  <div class="team-row-info">
-    <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-    <p class="role">{{ person.role }}</p>
-    {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-  </div>
-</div>
-{% endif %}
+{% include team-card.liquid person=person %}
 {% endfor %}
 </div>
 
 ## Masters Students
 
-<div class="team-rows-group">
+<div class="team-grid">
 {% for person in site.data.team.masters %}
-{% if person.bio %}
-<details class="team-row">
-  <summary>
-    <div class="team-row-photo-wrap">
-      {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-      <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-      {% if person.url %}</a>{% endif %}
-    </div>
-    <div class="team-row-info">
-      <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-      <p class="role">{{ person.role }}</p>
-      {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-    </div>
-    <span class="team-row-chevron">▶</span>
-  </summary>
-  <div class="team-row-bio"><p>{{ person.bio }}</p></div>
-</details>
-{% else %}
-<div class="team-row">
-  <div class="team-row-photo-wrap">
-    {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-    <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-    {% if person.url %}</a>{% endif %}
-  </div>
-  <div class="team-row-info">
-    <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-    <p class="role">{{ person.role }}</p>
-    {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-  </div>
-</div>
-{% endif %}
+{% include team-card.liquid person=person %}
 {% endfor %}
 </div>
 
 ## Research Assistants
 
-<div class="team-rows-group">
+<div class="team-grid">
 {% for person in site.data.team.ra %}
-{% if person.bio %}
-<details class="team-row">
-  <summary>
-    <div class="team-row-photo-wrap">
-      {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-      <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-      {% if person.url %}</a>{% endif %}
-    </div>
-    <div class="team-row-info">
-      <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-      <p class="role">{{ person.role }}</p>
-      {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-    </div>
-    <span class="team-row-chevron">▶</span>
-  </summary>
-  <div class="team-row-bio"><p>{{ person.bio }}</p></div>
-</details>
-{% else %}
-<div class="team-row">
-  <div class="team-row-photo-wrap">
-    {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
-    <img src="/assets/img/{{ person.photo }}" class="team-row-photo" alt="{{ person.name }}">
-    {% if person.url %}</a>{% endif %}
-  </div>
-  <div class="team-row-info">
-    <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
-    <p class="role">{{ person.role }}</p>
-    {% if person.cheese %}<span class="cheese-tag">{{ person.cheese }}</span>{% endif %}
-  </div>
-</div>
-{% endif %}
+{% include team-card.liquid person=person %}
 {% endfor %}
 </div>
 

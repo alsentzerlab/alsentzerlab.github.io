@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:fanlab.stanford.edu)",
+      "Bash(gem env *)",
+      "Bash(bundle show *)"
+    ]
+  }
+}
