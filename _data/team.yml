@@ -62,18 +62,18 @@ masters:
     cheese: "cheddar"
     bio: >
       Yifei is a first-year M.S. student in the Department of Computer Science. His research interests broadly lie at the intersection of machine learning and healthcare, with a particular focus on addressing distribution shifts across care sites and leveraging site-specific data through data-centric approaches. He previously received his B.S. in Computer Science and Mathematics from the University of Toronto.
-
-  - name: Yihan Zhao
-    photo: Headshot_Yihan.jpg
-    role: DBDS Masters Student
-    cheese: "cheddar"
-
+  
   - name: Lucy Yin
     photo: Headshot_Lucy.jpg
     role: DBDS Masters Student
     cheese: "brie"
     bio: >
       Lucy is a first year Master’s student in the Department of Biomedical Data Science. Her current research interests include classifying query ambiguity in LLMs and evaluating how underspecification affects downstream information retrieval in clinical settings. She is passionate about safe and equitable AI deployment in healthcare. She previously received her B.S. in Computational and Systems Biology at the University of California, Los Angeles (UCLA). 
+
+  - name: Yihan Zhao
+    photo: Headshot_Yihan.jpg
+    role: DBDS Masters Student
+    cheese: "cheddar"
 
   - name: Emma Grace Sun
     photo: placeholder-person.svg
