@@ -47,6 +47,14 @@ phd:
 
 
 masters:
+  - name: Venkat Ramaraju
+    photo: Headshot_Venkat.jpg
+    role: ICME Masters Student
+    url: https://venkatramaraju.github.io/website/
+    cheese: "Burrata"
+    bio: >
+      Venkat is a first-year M.S. student in the Institute for Computational and Mathematical Engineering. His research interests include improving LLM performance parity across low-resource languages and specialized domains. Before graduate school, he spent five years in industry, working on Alexa AI at Amazon Lab126 before joining an early-stage fintech startup. He earned his B.S. in Computer Science from Arizona State University in 2021.
+ 
   - name: Yifei Sun
     photo: Headshot_Yifei.png
     role: CS Masters Student
