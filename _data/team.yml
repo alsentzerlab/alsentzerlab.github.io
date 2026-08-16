@@ -43,10 +43,18 @@ phd:
     role: PhD Student, Biomedical Data Science
     cheese: "cheddar"
     bio: >
-      Bridget is a first-year PhD student in the Department of Biomedical Data Science. 
+      Bridget is a first-year PhD student in the Department of Biomedical Data Science. She is broadly interested in clinical natural language processing and trustworthy AI, spanning development, evaluation, and safe deployment in healthcare. She previously received her B.S. in Biostatistics with minors in mathematics and computer science from the University of North Carolina at Chapel Hill.  
 
 
 masters:
+  - name: Yifei Sun
+    photo: Headshot_Yifei.png
+    role: CS Masters Student
+    url: https://yyyyyifei.github.io/
+    cheese: "cheddar"
+    bio: >
+      Yifei is a first-year M.S. student in the Department of Computer Science. His research interests broadly lie at the intersection of machine learning and healthcare, with a particular focus on addressing distribution shifts across care sites and leveraging site-specific data through data-centric approaches. He previously received his B.S. in Computer Science and Mathematics from the University of Toronto.
+
   - name: Yihan Zhao
     photo: Headshot_Yihan.jpg
     role: DBDS Masters Student
