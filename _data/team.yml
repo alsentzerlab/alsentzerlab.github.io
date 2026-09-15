@@ -54,6 +54,7 @@ phd:
       Bridget is a first-year PhD student in the Department of Biomedical Data Science. She is broadly interested in clinical natural language processing and trustworthy AI, spanning development, evaluation, and safe deployment in healthcare. She previously received her B.S. in Biostatistics with minors in mathematics and computer science from the University of North Carolina at Chapel Hill.  
 
 
+
 masters:
   - name: Venkat Ramaraju
     photo: Headshot_Venkat.jpg
@@ -77,20 +78,20 @@ masters:
     cheese: "brie"
     bio: >
       Lucy is a first year Master’s student in the Department of Biomedical Data Science. Her current research interests include classifying query ambiguity in LLMs and evaluating how underspecification affects downstream information retrieval in clinical settings. She is passionate about safe and equitable AI deployment in healthcare. She previously received her B.S. in Computational and Systems Biology at the University of California, Los Angeles (UCLA). 
+  - name: Sahithi Ankireddy
+    photo: placeholder-person.svg
+    role: CS Masters Student
+    cheese: "cheddar"
+
+ra:
+  - name: Emma Grace Sun
+    photo: Headshot_Emma.jpg
+    role: CS Masters Student
+    cheese: "cheddar"
 
   - name: Yihan Zhao
     photo: Headshot_Yihan.jpg
     role: DBDS Masters Student
-    cheese: "cheddar"
-
-  - name: Emma Grace Sun
-    photo: placeholder-person.svg
-    role: CS Masters Student
-    cheese: "cheddar"
-
-  - name: Sahithi Ankireddy
-    photo: placeholder-person.svg
-    role: CS Masters Student
     cheese: "cheddar"
 
 alumni:
