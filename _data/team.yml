@@ -94,6 +94,18 @@ ra:
     role: DBDS Masters Student
     cheese: "cheddar"
 
+  - name: Emma Grace Sun
+    photo: placeholder-person.svg
+    role: CS Masters Student
+    cheese: "cheddar"
+
+  - name: Sahithi Ankireddy
+    photo: Headshot_Sahithi.jpg
+    role: CS Masters Student
+    cheese: "cheddar"
+    bio: >
+      Sahithi is a second-year M.S. student in the Department of Computer Science. Her research interests broadly lie in LLM reasoning over complex clinical data, with a particular focus on structured EHR data and how context and fine-tuning approaches shape model reliability. Sahithi previously received a B.S. in Computer Science with a minor in Data Science from Caltech.
+
 alumni:
   - name: Sasha Ronaghi
     role: (Now PhD Student, MIT EECS)
